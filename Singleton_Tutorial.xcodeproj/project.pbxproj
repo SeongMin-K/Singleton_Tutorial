@@ -13,6 +13,7 @@
 		3E6A910B27535E73008C6BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6A910927535E73008C6BC5 /* Main.storyboard */; };
 		3E6A910D27535E74008C6BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6A910C27535E74008C6BC5 /* Assets.xcassets */; };
 		3E6A911027535E74008C6BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6A910E27535E74008C6BC5 /* LaunchScreen.storyboard */; };
+		3E6A911827535EA6008C6BC5 /* MySingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6A911727535EA6008C6BC5 /* MySingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3E6A910C27535E74008C6BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E6A910F27535E74008C6BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E6A911127535E74008C6BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E6A911727535EA6008C6BC5 /* MySingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3E6A910C27535E74008C6BC5 /* Assets.xcassets */,
 				3E6A910E27535E74008C6BC5 /* LaunchScreen.storyboard */,
 				3E6A911127535E74008C6BC5 /* Info.plist */,
+				3E6A911727535EA6008C6BC5 /* MySingleton.swift */,
 			);
 			path = Singleton_Tutorial;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6A910827535E73008C6BC5 /* ViewController.swift in Sources */,
+				3E6A911827535EA6008C6BC5 /* MySingleton.swift in Sources */,
 				3E6A910427535E73008C6BC5 /* AppDelegate.swift in Sources */,
 				3E6A910627535E73008C6BC5 /* SceneDelegate.swift in Sources */,
 			);
